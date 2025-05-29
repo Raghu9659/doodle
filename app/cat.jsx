@@ -3,7 +3,7 @@
 import { useState } from  "react";
 import { useEffect } from "react";
 import { FiRefreshCw } from 'react-icons/fi';
-import { FaCat } from 'react-icons/fa';
+
 
 const Cat = () => {
     const [catUrl, setCatUrl] = useState('https://cataas.com/cat/says/hello?fontSize=50&fontColor=red');
@@ -40,7 +40,7 @@ console.log("render")
             className="flex items-center gap-2 px-5 py-2 bg-green-500 text-white font-semibold rounded hover:bg-yellow-600 transition "
           >
             <FiRefreshCw size={20} />
-             <FaCat size={40} color="orange" />
+             
             Another Cat
       </button>
     </main>
