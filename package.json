@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "cat",
+=======
+  "name": "aiapp",
+>>>>>>> 30bcdc743aa261f192e3fb53d4fe73b4ab8fe57f
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +13,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0"
+=======
+    "firebase": "^11.8.0",
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+>>>>>>> 30bcdc743aa261f192e3fb53d4fe73b4ab8fe57f
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
